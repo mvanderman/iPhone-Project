@@ -1,0 +1,373 @@
+html {
+    font: 'Myriad';
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    /*cheat code for centering items*/
+    
+    font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
+.header {
+    height: 678px;
+    background-image: url(http://images.apple.com/v/iphone/home/m/images/iphone_tab_cotter_large.jpg);
+    text-align: center;
+}
+/*@media all and (max-width:600px) and (min-width:0px){
+
+    .nav ul{
+        display: ;
+    }
+  
+}
+        */
+
+.header>img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 125px auto 0;
+}
+
+.header h1 {
+    font-size: 67px;
+    display: block;
+    color: white;
+    margin: 20px 0;
+}
+
+.header a {
+    font-size: 1.31em;
+    display: block;
+    line-height: 1px;
+    /*Lost in Translation */
+}
+
+.header>a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.header>a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.nav ul {
+    list-style: none;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-width: 1010px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.nav li {
+    line-height: 40px;
+    height: 1.45em;
+    display: inline-block;
+    margin: 0 auto 1em;
+    z-index: 9999;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    height: 2.55556em;
+    padding: 0 45px;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+.nav a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.belowproduct {
+    position: relative;
+    max-width: 1440px;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 2;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.belowproduct-wrapper {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+.belowproduct-groups {
+    overflow: hidden;
+    width: 100%;
+    height: 145px;
+    display: block;
+}
+
+.productbrowser-group {
+    width: 692px;
+    padding: 0;
+    text-align: center;
+}
+
+.productbrowser-items {
+    list-style: none;
+    padding-top: 10px;
+    overflow: hidden;
+    min-width: 1010px;
+    position: relative;
+    margin: 0 175px;
+}
+
+.productbrowser-item {
+    display: inline-block;
+    height: 120px;
+    vertical-align: bottom;
+    text-align: justify;
+    line-height: 124px;
+    padding: 0 28px;
+}
+
+.productbrowser-link {
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+.productbrowser-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.productbrowser-label {
+    display: block;
+    padding-top: 10px;
+    margin: 0 auto;
+    line-height: 1.166667;
+    white-space: normal;
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.productbrowser-label:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.belowproduct:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.pay {
+    display: inline-block;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 1.5em;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.linksys a {
+    color: blue;
+}
+
+.linksys a:link {
+    text-decoration: none;
+    font-size: 1.125em;
+    color: blue;
+}
+
+.linksys a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.buystrip {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    max-width: 980px;
+    min-width: 692px;
+    margin: 0 auto;
+}
+
+.buystrip-link {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.buystrip-product {
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 209px;
+    background-image: url("http://images.apple.com/v/iphone/home/n/images/buystrip/buystrip_hero_large.png");
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.buystrip-title {
+    text-align: left;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+.buystrip-title h4 {
+    font-size: 35px;
+    line-height: 1.142857;
+    font-weight: 200;
+    padding-bottom: 8px;
+    margin: 0;
+}
+
+.buystrip-title p {
+    font-size: 18px;
+    line-height: 1.555556;
+    font-weight: 400;
+    margin: 0;
+}
+
+.buystrip-title a {
+    font-size: 18px;
+    line-height: 1.555556;
+    font-weight: 400;
+    margin: 0;
+}
+
+.buystrip>h3:link {
+    text-decoration: none;
+    text: blue;
+}
+
+.buystrip h3:hover {
+    text-decoration: underline;
+}
+/*--------------------*/
+
+.fouricon {
+    padding-top: 60px;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+.fouricon ul {
+    display: inline-block;
+    text-align: center;
+}
+
+.fouricon li:first-of-type {
+    background-image: url("http://images.apple.com/v/iphone/home/n/images/buystrip/buystrip_online_large.png");
+    background-repeat: no-repeat;
+}
+
+.fouricon li:nth-of-type(2) {
+    background-image: url("http://images.apple.com/v/iphone/home/n/images/buystrip/buystrip_retail_large.png");
+    background-repeat: no-repeat;
+}
+
+.fouricon li:nth-of-type(3) {
+    background-image: url("http://images.apple.com/v/iphone/home/n/images/buystrip/buystrip_call_large.png");
+    background-size: 44px 44px;
+    background-repeat: no-repeat;
+}
+
+.fouricon li:nth-of-type(4) {
+    background-image: url("http://images.apple.com/v/iphone/home/n/images/buystrip/buystrip_app_large.jpg");
+    background-size: 44px 44px;
+    background-repeat: no-repeat;
+     
+}
+
+
+
+.fouricon ul li {
+    display: inline-block;
+    width: 200px;
+    margin: 0 10px;
+}
+
+
+
+.fouricon a {
+    text-decoration: none;
+    color: black;
+}
+
+.fouricon span {
+    color: blue;
+}
+
+.fouricon a:hover span {
+    text-decoration: underline;
+}
+
+.fouricon h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 0;
+    margin-bottom: 18px;
+    height: 300px;
+    text-align: center;
+}
+
+.footer ul {
+    min-height: 6px;
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    padding: 30px;
+    text-align: left;
+    margin-left: auto;
+}
+
+.footer ul li {
+    color: gray;
+    list-style: none;
+    width: 250px;
+    font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+    font-size: 10px;
+    line-height: 1.45;
+    font-weight: 400;
+    text-align: left;
+}
+
+.footer h3 {
+    font-size: 12px;
+    line-height: 1.142857;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+}
